@@ -1,0 +1,28 @@
+image-input.html                                                                                                                                                                                                                                  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Input</h1>
+    <form id="image-form">
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image"><br><br>
+        <label for="infrastructure-type">Select Infrastructure Type:</label>
+        <select id="infrastructure-type" name="infrastructure-type">
+            <option value="foundation">Foundation</option>
+            <option value="super-structure">Super Structure</option>
+            <option value="facade">Facade</option>
+            <option value="interiors">Interiors</option>
+        </select><br><br>
+        <label for="estimated-days">Estimated Days to Complete:</label>
+        <input type="number" id="estimated-days" name="estimated-days"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
